@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CDBED9A51BBEBF3200AAA3F7"
+               BuildableName = "App Teste Softblue.app"
+               BlueprintName = "App Teste Softblue"
+               ReferencedContainer = "container:App Teste Softblue.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CDBED9B91BBEBF3200AAA3F7"
+               BuildableName = "App Teste SoftblueTests.xctest"
+               BlueprintName = "App Teste SoftblueTests"
+               ReferencedContainer = "container:App Teste Softblue.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CDBED9C41BBEBF3200AAA3F7"
+               BuildableName = "App Teste SoftblueUITests.xctest"
+               BlueprintName = "App Teste SoftblueUITests"
+               ReferencedContainer = "container:App Teste Softblue.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDBED9A51BBEBF3200AAA3F7"
+            BuildableName = "App Teste Softblue.app"
+            BlueprintName = "App Teste Softblue"
+            ReferencedContainer = "container:App Teste Softblue.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDBED9A51BBEBF3200AAA3F7"
+            BuildableName = "App Teste Softblue.app"
+            BlueprintName = "App Teste Softblue"
+            ReferencedContainer = "container:App Teste Softblue.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDBED9A51BBEBF3200AAA3F7"
+            BuildableName = "App Teste Softblue.app"
+            BlueprintName = "App Teste Softblue"
+            ReferencedContainer = "container:App Teste Softblue.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
