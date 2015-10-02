@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDBED9AA1BBEBF3200AAA3F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBED9A91BBEBF3200AAA3F7 /* AppDelegate.swift */; };
+		CDBED9AC1BBEBF3200AAA3F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBED9AB1BBEBF3200AAA3F7 /* ViewController.swift */; };
+		CDBED9AF1BBEBF3200AAA3F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBED9AD1BBEBF3200AAA3F7 /* Main.storyboard */; };
+		CDBED9B11BBEBF3200AAA3F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBED9B01BBEBF3200AAA3F7 /* Assets.xcassets */; };
+		CDBED9B41BBEBF3200AAA3F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBED9B21BBEBF3200AAA3F7 /* LaunchScreen.storyboard */; };
+		CDBED9BF1BBEBF3200AAA3F7 /* App_Teste_SoftblueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBED9BE1BBEBF3200AAA3F7 /* App_Teste_SoftblueTests.swift */; };
+		CDBED9CA1BBEBF3200AAA3F7 /* App_Teste_SoftblueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBED9C91BBEBF3200AAA3F7 /* App_Teste_SoftblueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDBED9BB1BBEBF3200AAA3F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDBED99E1BBEBF3200AAA3F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBED9A51BBEBF3200AAA3F7;
+			remoteInfo = "App Teste Softblue";
+		};
+		CDBED9C61BBEBF3200AAA3F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDBED99E1BBEBF3200AAA3F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBED9A51BBEBF3200AAA3F7;
+			remoteInfo = "App Teste Softblue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDBED9A61BBEBF3200AAA3F7 /* App Teste Softblue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Teste Softblue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBED9A91BBEBF3200AAA3F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDBED9AB1BBEBF3200AAA3F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDBED9AE1BBEBF3200AAA3F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDBED9B01BBEBF3200AAA3F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDBED9B31BBEBF3200AAA3F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDBED9B51BBEBF3200AAA3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBED9BA1BBEBF3200AAA3F7 /* App Teste SoftblueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App Teste SoftblueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBED9BE1BBEBF3200AAA3F7 /* App_Teste_SoftblueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Teste_SoftblueTests.swift; sourceTree = "<group>"; };
+		CDBED9C01BBEBF3200AAA3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBED9C51BBEBF3200AAA3F7 /* App Teste SoftblueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App Teste SoftblueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBED9C91BBEBF3200AAA3F7 /* App_Teste_SoftblueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Teste_SoftblueUITests.swift; sourceTree = "<group>"; };
+		CDBED9CB1BBEBF3200AAA3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDBED9A31BBEBF3200AAA3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBED9B71BBEBF3200AAA3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBED9C21BBEBF3200AAA3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDBED99D1BBEBF3200AAA3F7 = {
+			isa = PBXGroup;
+			children = (
+				CDBED9A81BBEBF3200AAA3F7 /* App Teste Softblue */,
+				CDBED9BD1BBEBF3200AAA3F7 /* App Teste SoftblueTests */,
+				CDBED9C81BBEBF3200AAA3F7 /* App Teste SoftblueUITests */,
+				CDBED9A71BBEBF3200AAA3F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDBED9A71BBEBF3200AAA3F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDBED9A61BBEBF3200AAA3F7 /* App Teste Softblue.app */,
+				CDBED9BA1BBEBF3200AAA3F7 /* App Teste SoftblueTests.xctest */,
+				CDBED9C51BBEBF3200AAA3F7 /* App Teste SoftblueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDBED9A81BBEBF3200AAA3F7 /* App Teste Softblue */ = {
+			isa = PBXGroup;
+			children = (
+				CDBED9A91BBEBF3200AAA3F7 /* AppDelegate.swift */,
+				CDBED9AB1BBEBF3200AAA3F7 /* ViewController.swift */,
+				CDBED9AD1BBEBF3200AAA3F7 /* Main.storyboard */,
+				CDBED9B01BBEBF3200AAA3F7 /* Assets.xcassets */,
+				CDBED9B21BBEBF3200AAA3F7 /* LaunchScreen.storyboard */,
+				CDBED9B51BBEBF3200AAA3F7 /* Info.plist */,
+			);
+			path = "App Teste Softblue";
+			sourceTree = "<group>";
+		};
+		CDBED9BD1BBEBF3200AAA3F7 /* App Teste SoftblueTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBED9BE1BBEBF3200AAA3F7 /* App_Teste_SoftblueTests.swift */,
+				CDBED9C01BBEBF3200AAA3F7 /* Info.plist */,
+			);
+			path = "App Teste SoftblueTests";
+			sourceTree = "<group>";
+		};
+		CDBED9C81BBEBF3200AAA3F7 /* App Teste SoftblueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBED9C91BBEBF3200AAA3F7 /* App_Teste_SoftblueUITests.swift */,
+				CDBED9CB1BBEBF3200AAA3F7 /* Info.plist */,
+			);
+			path = "App Teste SoftblueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDBED9A51BBEBF3200AAA3F7 /* App Teste Softblue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBED9CE1BBEBF3200AAA3F7 /* Build configuration list for PBXNativeTarget "App Teste Softblue" */;
+			buildPhases = (
+				CDBED9A21BBEBF3200AAA3F7 /* Sources */,
+				CDBED9A31BBEBF3200AAA3F7 /* Frameworks */,
+				CDBED9A41BBEBF3200AAA3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Teste Softblue";
+			productName = "App Teste Softblue";
+			productReference = CDBED9A61BBEBF3200AAA3F7 /* App Teste Softblue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDBED9B91BBEBF3200AAA3F7 /* App Teste SoftblueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBED9D11BBEBF3200AAA3F7 /* Build configuration list for PBXNativeTarget "App Teste SoftblueTests" */;
+			buildPhases = (
+				CDBED9B61BBEBF3200AAA3F7 /* Sources */,
+				CDBED9B71BBEBF3200AAA3F7 /* Frameworks */,
+				CDBED9B81BBEBF3200AAA3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDBED9BC1BBEBF3200AAA3F7 /* PBXTargetDependency */,
+			);
+			name = "App Teste SoftblueTests";
+			productName = "App Teste SoftblueTests";
+			productReference = CDBED9BA1BBEBF3200AAA3F7 /* App Teste SoftblueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDBED9C41BBEBF3200AAA3F7 /* App Teste SoftblueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBED9D41BBEBF3200AAA3F7 /* Build configuration list for PBXNativeTarget "App Teste SoftblueUITests" */;
+			buildPhases = (
+				CDBED9C11BBEBF3200AAA3F7 /* Sources */,
+				CDBED9C21BBEBF3200AAA3F7 /* Frameworks */,
+				CDBED9C31BBEBF3200AAA3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDBED9C71BBEBF3200AAA3F7 /* PBXTargetDependency */,
+			);
+			name = "App Teste SoftblueUITests";
+			productName = "App Teste SoftblueUITests";
+			productReference = CDBED9C51BBEBF3200AAA3F7 /* App Teste SoftblueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDBED99E1BBEBF3200AAA3F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Caio Arthur";
+				TargetAttributes = {
+					CDBED9A51BBEBF3200AAA3F7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CDBED9B91BBEBF3200AAA3F7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CDBED9A51BBEBF3200AAA3F7;
+					};
+					CDBED9C41BBEBF3200AAA3F7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CDBED9A51BBEBF3200AAA3F7;
+					};
+				};
+			};
+			buildConfigurationList = CDBED9A11BBEBF3200AAA3F7 /* Build configuration list for PBXProject "App Teste Softblue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDBED99D1BBEBF3200AAA3F7;
+			productRefGroup = CDBED9A71BBEBF3200AAA3F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDBED9A51BBEBF3200AAA3F7 /* App Teste Softblue */,
+				CDBED9B91BBEBF3200AAA3F7 /* App Teste SoftblueTests */,
+				CDBED9C41BBEBF3200AAA3F7 /* App Teste SoftblueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBED9A41BBEBF3200AAA3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBED9B41BBEBF3200AAA3F7 /* LaunchScreen.storyboard in Resources */,
+				CDBED9B11BBEBF3200AAA3F7 /* Assets.xcassets in Resources */,
+				CDBED9AF1BBEBF3200AAA3F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBED9B81BBEBF3200AAA3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBED9C31BBEBF3200AAA3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDBED9A21BBEBF3200AAA3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBED9AC1BBEBF3200AAA3F7 /* ViewController.swift in Sources */,
+				CDBED9AA1BBEBF3200AAA3F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBED9B61BBEBF3200AAA3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBED9BF1BBEBF3200AAA3F7 /* App_Teste_SoftblueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBED9C11BBEBF3200AAA3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBED9CA1BBEBF3200AAA3F7 /* App_Teste_SoftblueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDBED9BC1BBEBF3200AAA3F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDBED9A51BBEBF3200AAA3F7 /* App Teste Softblue */;
+			targetProxy = CDBED9BB1BBEBF3200AAA3F7 /* PBXContainerItemProxy */;
+		};
+		CDBED9C71BBEBF3200AAA3F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDBED9A51BBEBF3200AAA3F7 /* App Teste Softblue */;
+			targetProxy = CDBED9C61BBEBF3200AAA3F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDBED9AD1BBEBF3200AAA3F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBED9AE1BBEBF3200AAA3F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDBED9B21BBEBF3200AAA3F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBED9B31BBEBF3200AAA3F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDBED9CC1BBEBF3200AAA3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDBED9CD1BBEBF3200AAA3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDBED9CF1BBEBF3200AAA3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "App Teste Softblue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiotelles.App-Teste-Softblue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDBED9D01BBEBF3200AAA3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "App Teste Softblue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiotelles.App-Teste-Softblue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDBED9D21BBEBF3200AAA3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "App Teste SoftblueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiotelles.App-Teste-SoftblueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Teste Softblue.app/App Teste Softblue";
+			};
+			name = Debug;
+		};
+		CDBED9D31BBEBF3200AAA3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "App Teste SoftblueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiotelles.App-Teste-SoftblueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Teste Softblue.app/App Teste Softblue";
+			};
+			name = Release;
+		};
+		CDBED9D51BBEBF3200AAA3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "App Teste SoftblueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiotelles.App-Teste-SoftblueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "App Teste Softblue";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CDBED9D61BBEBF3200AAA3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "App Teste SoftblueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiotelles.App-Teste-SoftblueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "App Teste Softblue";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDBED9A11BBEBF3200AAA3F7 /* Build configuration list for PBXProject "App Teste Softblue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBED9CC1BBEBF3200AAA3F7 /* Debug */,
+				CDBED9CD1BBEBF3200AAA3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBED9CE1BBEBF3200AAA3F7 /* Build configuration list for PBXNativeTarget "App Teste Softblue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBED9CF1BBEBF3200AAA3F7 /* Debug */,
+				CDBED9D01BBEBF3200AAA3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDBED9D11BBEBF3200AAA3F7 /* Build configuration list for PBXNativeTarget "App Teste SoftblueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBED9D21BBEBF3200AAA3F7 /* Debug */,
+				CDBED9D31BBEBF3200AAA3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDBED9D41BBEBF3200AAA3F7 /* Build configuration list for PBXNativeTarget "App Teste SoftblueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBED9D51BBEBF3200AAA3F7 /* Debug */,
+				CDBED9D61BBEBF3200AAA3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDBED99E1BBEBF3200AAA3F7 /* Project object */;
+}
