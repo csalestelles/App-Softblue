@@ -60,6 +60,15 @@ class ViewController: UIViewController {
             }
             print(i)  //print("\(i) ") para quando hover strings
         }
+        var var1 : Int
+        var variavel : Int
+        for variavel = 0; variavel<10; ++variavel{
+            var1 = variavel
+            if(variavel == 9){
+                break
+            }
+            print(variavel, var1)
+        }
         
         //FOR ALTERNATIVO
         
