@@ -10,10 +10,6 @@ import UIKit
 
 let MyPI : Float = 3.14   //constante global
 
-func RetornaDobro(valor : Int) -> Int  //definindo uma função    func nomedafunção(parâmetros) -> tipoderetorno{}
-{
-    return valor*2
-}
 
 class ViewController: UIViewController {
 
@@ -22,14 +18,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        print("Olá Mundo!")
+        print("Olá Mundo...!")
         
         
         //STRING
         
         //var myBuffer = String()
         var myBuffer : String = String()   //<--- definição mais otimizada
-        myBuffer = "\nHello world!"
+        myBuffer = "\nHello world...!"
         print(myBuffer)
         
         
@@ -53,12 +49,12 @@ class ViewController: UIViewController {
         var i : Int
         for i = 0; i<=10; ++i{
             //Comando if
-            if(i==3){
+            if(i==5){
                 break     //finaliza o laço
-                print("três")
+                print("cinco")
                 continue       //comando que quebra o laço atual(laço do num 3) e pula para o proximo
             }
-            print(i)  //print("\(i) ") para quando hover strings
+            print(i)  //print("\(i) ") para quando houver strings
         }
         var var1 : Int
         var variavel : Int
@@ -67,7 +63,7 @@ class ViewController: UIViewController {
             if(variavel == 9){
                 break
             }
-            print(variavel, var1)
+            print(variavel,",", var1)
         }
         
         //FOR ALTERNATIVO
@@ -115,7 +111,7 @@ class ViewController: UIViewController {
         
         //SHORT IF
         
-        print("\nShort IF: ")
+        print("\nShort IF: i = \(i)")
         myBuffer = i>5 ? "i maior que 5":"i menor ou igual a 5"
         print(myBuffer)
         
@@ -147,6 +143,12 @@ class ViewController: UIViewController {
       
         
         //FUNCOES
+        
+        func RetornaDobro(valor : Int) -> Int  //definindo uma função    func nomedafunção(parâmetros) -> tipoderetorno{}
+        {
+            return valor*2
+        }
+
         
         print("\nFunçoes: ")
         i=6
@@ -191,8 +193,8 @@ class ViewController: UIViewController {
         print("\nNSDictionary: ")
         let myDic : NSDictionary = ["Usuário" : "Caioatelles", "Senha" : "Softbluecurso", "E-mail" : "csalestelles@gmail.com"]
         let myKey : String = "Senha"
-        var myObject : AnyObject    // define no swift que o objeto pode ser de qualquer tipo
         
+        var myObject : AnyObject    // define no swift que o objeto pode ser de qualquer tipo
         myObject = myDic.objectForKey(myKey)!   //objectforkey procura o objeto associado à chave em parênteses
         print("A chave \(myKey) aponta para o elemento \(myObject)")
     }
